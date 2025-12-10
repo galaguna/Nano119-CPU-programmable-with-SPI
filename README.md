@@ -144,4 +144,5 @@ As practical reference, also a master SPI project is attached in this repository
 If you mention this project in a publication, I ask that you include the following citation for it
 
  Laguna-Sanchez, G.A. (2025). Nano119 CPU programmable with SPI.  
-  httpsgithub.comgalagunaNano119-CPU-programmable-with-SPI.
+  https://github.com/galaguna/Nano119-CPU-programmable-with-SPI
+  
