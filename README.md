@@ -130,7 +130,7 @@ For SPI transfers, the following specification is assumed
 
 In the case of a read sequence, the read command must be followed by a stuff SPI word (let's say, all ones or all zeros word). The read information will be in the data field of the SPI word transmitted by the slave SPI.  
 
-Within the slave_spi4nano module, the SCK frequency is assumed as CLK8. For example, if the CLK frequency is 50 MHz, the SCK frequency is 6.25 MHz. SPI interface also works with low frequency, for example, if CLK frequency is 1525.879 Hz, the SCK frequency is 190.8 Hz. Additionally, within the nano_spictrl module, the SPI base frequency is selected by the parameter CLK_DIVISOR and one multiplexor. According with the code, and assuming a 100 MHz system clock, the possible SCK frequencies are showed in the following table
+Within the slave_spi4nano module, the SCK frequency is assumed as CLK/8. For example, if the CLK frequency is 50 MHz, the SCK frequency is 6.25 MHz. SPI interface also works with low frequency, for example, if CLK frequency is 1525.879 Hz, the SCK frequency is 190.8 Hz. Additionally, within the nano_spictrl module, the SPI base frequency is selected by the parameter CLK_DIVISOR and one multiplexor. According with the code, and assuming a 100 MHz system clock, the possible SCK frequencies are showed in the following table
 
 ![Figure-22]( SPI_SCK_Sel_Table.png)
 
