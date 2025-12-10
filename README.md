@@ -14,7 +14,9 @@
 
 ## How it works
 
-A simple architecture for practical implementation of a central processing unit (CPU) is proposed as teaching resource, to experiment and verify the fundamental concepts of a simple computer architecture with its instruction set (in this case, 119 instructions). A block diagram for the proposed architecture is presented in the following figure  
+A simple architecture for practical implementation of a central processing unit (CPU) is proposed as teaching resource, to experiment and verify the fundamental concepts of a simple computer architecture with its instruction set (in this case, 119 instructions). Full functional VHDL code is available in this repository, ready to be tested on a Basys3 development board.
+
+A block diagram for the proposed architecture is presented in the following figure  
 
 ![Figure-1](Nano_mux_architecture.png)
 
